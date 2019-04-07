@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RNSIT Library</string>
+    <string name="title_activity_home_page">home_page</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_library"><![CDATA[RNSIT Library and Information Centre RNSIT Library was established during the year 2001 with a collection of 2000 volumes of books. Within a span of 10 years it has grown with a collection of over 26,341 volumes, 80 Journals, 18 Magazines and 11 News papers.. RNSIT Library is an automated Library. Books are Bar Coded and students are issued an identity card to transact with the library facilities. Each student will be issued 3 books during regular time and 4 Books are issued during their exams. Journals and Magazines are available to support and enhance their specialization. Both Indian and foreign journals are being subscribed. Our library has been subscribed to the IEEE – IEL Online through INDEST – AICTE consortium by paying Rs. 4 lakhs to support library users project works, technical reports, and R & D works.]]></string>
+</resources>

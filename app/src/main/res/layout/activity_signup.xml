@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#25e100ff"
+    tools:context=".signup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="600dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#13a938"
+            android:layout_margin="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:text="Borrower ID"
+            android:textColor="#153adf"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/Br_Id"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="1RN16CS000"
+            android:textSize="20sp"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Full Name"
+            android:textColor="#153adf"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+        <EditText
+            android:id="@+id/Name"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="Shashank Bhat"
+            android:textSize="20sp"
+            android:inputType="text"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Phone No"
+            android:textColor="#153adf"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+        <EditText
+            android:id="@+id/Phone_no"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="+91 1234567890"
+            android:textSize="20sp"
+            android:inputType="text"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="Password"
+            android:textColor="#153adf"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+        <EditText
+            android:id="@+id/Password"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:hint="Password"/>
+        <Button
+            android:id="@+id/createAccButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="Create Account"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:background="@drawable/loginorsignupbutton"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</RelativeLayout>
